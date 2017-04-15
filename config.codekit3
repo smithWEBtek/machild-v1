@@ -9,6 +9,34 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/_notes\/notes.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/_notes\/notes.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/css\/_normalize.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_normalize-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/application.css": {
 		"aP": 1,
 		"bl": 0,
@@ -16,6 +44,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/application-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/welcome.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/welcome-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -32,9 +70,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/_normalize.css",
-		"oF": 0,
+		"oA": 0,
+		"oAP": "\/css\/_normalize.css",
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		},
@@ -47,8 +85,8 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/application.css",
-		"oF": 3,
-		"oS": 3,
+		"oF": 2,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/scss\/welcome.scss": {
@@ -58,9 +96,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/welcome.css",
-		"oF": 0,
+		"oA": 0,
+		"oAP": "\/css\/welcome.css",
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		}

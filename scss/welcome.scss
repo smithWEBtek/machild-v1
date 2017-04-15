@@ -14,3 +14,69 @@
   width: 27.5%;
   padding: 0 2.5;
 }
+
+.homepage_content {
+  hr {
+    width: 3em;
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid;
+    color: #8bc6db;
+    margin: 2rem 0;
+  }
+  h2 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-size: 1.35em;
+    font-weight: 400;
+    margin-bottom: .5em;
+  }
+  a {
+    text-decoration: none;
+    color: navy;
+    &:hover {
+      color: #8bc6db;
+    }
+  }
+  p {
+    margin: 0 0 .75em 0;
+  }
+  .date {
+    font-size: .85em;
+    margin-bottom: .2em;
+    font-color: #9a9da4;
+  }
+}
+
+.about {
+  padding: 0 7.5% 0 0;
+}
+
+a {
+  color: navy;
+  font-weight: 700;
+  text-decoration: none;
+  &:hover {
+    color: #8bc6db;
+  }
+}
+
+#main_footer {
+  padding: 2.5em 5%;
+  border-top: 1px solid #E9E9E9;
+  .copyright {
+    float: left;
+    font-size: .9em;
+    margin: 0;
+  }
+  nav {
+    float: right;
+    i {
+      margin-left: 1em;
+      padding-top: .2em;
+    }
+  }
+}
