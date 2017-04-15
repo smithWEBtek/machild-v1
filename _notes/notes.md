@@ -17,3 +17,8 @@
     }
   }
 }
+
+
+      <a href="http://twitter.com/smithwebtek" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+      <a href="http://linkedin.com/in/smithwebtek" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+      <a href="http://github.com/smithwebtek" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>

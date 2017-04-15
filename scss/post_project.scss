@@ -1,0 +1,75 @@
+$white: #FFFFFF;
+$dark: #424652;
+$light: #9a9da4;
+$highlight: #8bc6db;
+$border: #E9E9E9;
+#posts_wrapper {
+  text-align: center;
+  .post {
+    date {
+      font-size: 1em;
+      margin: 0;
+    }
+    h2 {
+      margin: 0;
+      font-size: 1.25em;
+      text-transform: uppercase;
+      a {
+        text-decortation: none;
+        color: $dark;
+        &:hover {
+          color: $highlight;
+        }
+      }
+    }
+    hr {
+      margin: 3em auto;
+    }
+  }
+}
+
+//---pagination
+.pagination:before,
+.pagination:after {
+  content: " ";
+  display: table;
+}
+
+.pagination:after {
+  clear: both; //...video said "...both", but he typed 'box'
+}
+
+.pagination {
+  text-align: center;
+  margin: 0 0 3em 0;
+  a,
+  .previous_page,
+  .current,
+  .next_page {
+    padding: .75em 1em;
+    margin: 0 .5em;
+    border-radius: .15em;
+    line-height: 20px;
+    text-decoration: none;
+    background: $white;
+    font-weight: 700;
+    font-size: .7em;
+    font-style: normal;
+    color: $dark;
+    &:hover {
+      background: $highlight;
+      color: $white;
+    }
+  }
+  .current {
+    background: $highlight;
+    color: $white;
+  }
+  .disabled {
+    color: #C0C0C0;
+    background: $white;
+    &:hover {
+      color: #C0C0C0;
+    }
+  }
+}

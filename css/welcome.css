@@ -12,15 +12,6 @@
   width: 27.5%;
   padding: 0 2.5; }
 
-.homepage_content hr {
-  width: 3em;
-  display: block;
-  height: 2px;
-  border: 0;
-  border-top: 2px solid;
-  color: #8bc6db;
-  margin: 2rem 0; }
-
 .homepage_content h2 {
   font-size: 1.1rem;
   text-transform: uppercase; }
@@ -32,17 +23,18 @@
 
 .homepage_content a {
   text-decoration: none;
-  color: navy; }
+  color: #424652; }
   .homepage_content a:hover {
     color: #8bc6db; }
 
 .homepage_content p {
+  font-size: 1.1rem;
   margin: 0 0 .75em 0; }
 
 .homepage_content .date {
   font-size: .85em;
   margin-bottom: .2em;
-  font-color: #9a9da4; }
+  font-color: #light; }
 
 .about {
   padding: 0 7.5% 0 0; }
@@ -52,11 +44,11 @@ a {
   font-weight: 700;
   text-decoration: none; }
   a:hover {
-    color: #8bc6db; }
+    color: #highlight; }
 
 #main_footer {
   padding: 2.5em 5%;
-  border-top: 1px solid #E9E9E9; }
+  border-top: 1px solid #border; }
   #main_footer .copyright {
     float: left;
     font-size: .9em;
@@ -66,3 +58,9 @@ a {
     #main_footer nav i {
       margin-left: 1em;
       padding-top: .2em; }
+  #main_footer a {
+    color: navy;
+    font-weight: 700;
+    text-decoration: none; }
+    #main_footer a:hover {
+      color: cyan; }

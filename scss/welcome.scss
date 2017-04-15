@@ -1,3 +1,8 @@
+$white: #FFFFFF;
+$dark: #424652;
+$light: #9a9da4;
+$highlight: #8bc6db;
+$border: #E9E9E9;
 .col-1,
 .col-2,
 .col-3 {
@@ -16,15 +21,6 @@
 }
 
 .homepage_content {
-  hr {
-    width: 3em;
-    display: block;
-    height: 2px;
-    border: 0;
-    border-top: 2px solid;
-    color: #8bc6db;
-    margin: 2rem 0;
-  }
   h2 {
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -36,18 +32,19 @@
   }
   a {
     text-decoration: none;
-    color: navy;
+    color: $dark;
     &:hover {
-      color: #8bc6db;
+      color: $highlight;
     }
   }
   p {
+    font-size: 1.1rem;
     margin: 0 0 .75em 0;
   }
   .date {
     font-size: .85em;
     margin-bottom: .2em;
-    font-color: #9a9da4;
+    font-color: #light;
   }
 }
 
@@ -60,13 +57,13 @@ a {
   font-weight: 700;
   text-decoration: none;
   &:hover {
-    color: #8bc6db;
+    color: #highlight;
   }
 }
 
 #main_footer {
   padding: 2.5em 5%;
-  border-top: 1px solid #E9E9E9;
+  border-top: 1px solid #border;
   .copyright {
     float: left;
     font-size: .9em;
@@ -77,6 +74,14 @@ a {
     i {
       margin-left: 1em;
       padding-top: .2em;
+    }
+  }
+  a {
+    color: navy;
+    font-weight: 700;
+    text-decoration: none;
+    &:hover {
+      color: cyan;
     }
   }
 }
